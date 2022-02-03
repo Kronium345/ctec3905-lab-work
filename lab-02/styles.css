@@ -1,0 +1,58 @@
+nav {
+  display: flex;
+  background-color: yellow;
+  flex-direction: column;
+  width: 15vw;
+  flex-shrink: 0;
+  flex-basis: 15vw;
+}
+
+nav a {
+  background-color: red;
+  color: yellow;
+  padding: 0.25em 0.5em;
+  margin: auto;
+  transition: background-color 0.8s;
+}
+
+nav a:hover {
+  background-color: blue;
+}
+
+header, section {
+	padding: 0 0.5em;
+}
+
+nav, main {
+	box-sizing: border-box;
+}
+
+header {
+  background-color: green;
+  overflow: auto;
+}
+
+section {
+  background-color: blue;
+  overflow: auto;
+  width: 75vw;
+  float: right;
+}
+
+body {
+  background-color: grey;
+  margin: 0;
+}
+
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#target {
+  background-color: blue;
+  color: black;
+  border: 5px solid black;
+  padding: 0 0.5em;
+}
